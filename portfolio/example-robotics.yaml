@@ -1,0 +1,30 @@
+# Portfolio company profile: one file per company in portfolio/, picked with --company <file name>
+# (or automatically when the request names the company). Who the emails come from lives in
+# sender.yaml, shared by every company. Replace every PLACEHOLDER with real details; the tool
+# refuses to run while any remain. The writer may only use facts listed here, so keep them true.
+company_name: "PLACEHOLDER: Example Robotics"
+founder_name: "PLACEHOLDER: Jordan Lee"
+pitch: >
+  We build autonomous mobile robots that move pallets, carts and materials around
+  warehouses and logistics yards. Our robots are already deployed in supply-chain
+  and warehouse operations, and we're looking at construction, where crews spend a
+  lot of hours hauling materials around laydown yards, prefab shops and job sites.
+icp_notes: >
+  Mid-size US general contractors and construction firms (roughly $50M-$1B revenue)
+  that run their own warehouse, equipment yard, or prefab/modular shop, or that do
+  large industrial, warehouse or distribution-center builds. Signs of a good fit:
+  recent facility expansion, prefab/offsite construction, a VDC or innovation team,
+  hiring for logistics or equipment roles.
+# Optional, but they make intros far more convincing (the writer only uses what's here):
+# founder_bio: "ex-Amazon Robotics deployment lead; shipped 2,000+ AMRs"
+# stage_and_backers: "Seed, $6M, led by Your Fund"
+# investor_note: "we backed them because their robots run in live 3PL sites, not just pilots"
+# offer: "a free 4-week pilot in one yard"
+# roles:                      # for hiring requests
+#   - title: "Senior Systems Engineer, Field Deployments"
+#     location: "Remote (US) or Boston"
+#     comp: "$180-220k + equity"
+#     why_interesting: "owns fleet bring-up end to end at customer sites"
+proof_points:
+  - "PLACEHOLDER: robots running in live warehouse deployments today"
+  - "PLACEHOLDER: replace with a real metric, e.g. hours of manual hauling saved per week"
